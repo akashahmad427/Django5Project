@@ -1,0 +1,38 @@
+{% extends 'watch/base.html' %}
+{% load static %}
+    {% block more %}
+    <div class="row mb-5 my-5">
+        <div class="col-sm-4 text-center">
+            <img src="{% static 'images/img16.jpg' %}" alt="" srcset="">
+            <h4>this is a beautifull watch and i like if very much os i take it fomr </h4>
+            <a href="{% url 'form' %}" class="btn btn-warning">Shop Now</a>
+        </div>
+        <div class="col-sm-4 text-center ">
+            <img src="{% static 'images/img17.jpg' %}" alt="" srcset="">
+            <h4>this is a beautifull watch and i like if very much os i take it fomr </h4>
+            <a href="{% url 'form' %}" class="btn btn-warning">Shop Now</a>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img src="{% static 'images/img18.jpg' %}" alt="" srcset="">
+            <h4>this is a beautifull watch and i like if very much os i take it fomr </h4>
+            <a href="{% url 'form' %}" class="btn btn-warning">Shop Now</a>
+        </div>
+    </div>
+    <div class="row mb-5 my-5">
+        <div class="col-sm-6 text-center">
+            <img src="{% static 'images/img19.jpg' %}" alt="" srcset="">
+            <h4>this is a beautifull watch and i like if very much os i take it fomr </h4>
+            <a href="{% url 'form' %}" class="btn btn-warning">Shop Now</a>
+        </div>
+        <div class="col-sm-6 text-center ">
+            <img src="{% static 'images/img20.jpg' %}" alt="" srcset="">
+            <h4>this is a beautifull watch and i like if very much os i take it fomr </h4>
+            <a href="{% url 'form' %}" class="btn btn-warning">Shop Now</a>
+        </div>
+    </div>
+
+    <div class="font mb-5 my-5">
+        <a href="{% url 'home' %}" class="btn btn-primary"> Home ... </a>
+    </div>
+
+    {% endblock more %}
