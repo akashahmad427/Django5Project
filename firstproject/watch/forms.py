@@ -1,7 +1,7 @@
 from django import forms
-class Storedata(forms.Form):
-    name = forms.CharField()
-    email = forms.EmailField()
-    address = forms.CharField()
-    payment = forms.CharField()
-    
+from .models import Sellinfo
+class Selling(forms.ModelForm):
+    class Meta:
+        model = Sellinfo
+        fields = ['first_name','last_name','father_name','cnic','address','email','phone']
+        

@@ -13,7 +13,7 @@
     text-align: center;
 }
 body{
-    background-color: SlateBlue;
+    background-color: rgb(189, 183, 235);
 }
 .json{
     background-color: rgb(43, 226, 134);
@@ -22,3 +22,25 @@ body{
 .desine{
     text-align: center;
 }
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+.blink {
+    animation: blinker 3s linear infinite;
+    background-color: red;
+    text-align: center;
+    color: white;
+      }
+    
+    @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
