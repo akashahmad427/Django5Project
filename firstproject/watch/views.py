@@ -11,3 +11,9 @@ def more(request):
 def perchar(request):
     fm = Storedata()
     return render(request,'watch/form.html',{'form':fm})
+
+def contact(request):
+    return render(request,'watch/form.html')
+
+def about(request):
+    return render(request,'watch/about.html')

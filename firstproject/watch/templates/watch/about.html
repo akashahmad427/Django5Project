@@ -1,0 +1,20 @@
+{% extends 'watch/base.html' %}
+{% block more %}
+<div class="row">
+<div class="col-sm-2">
+
+</div>
+<div class="desine col-sm-8">
+    <nav class="bg-info p-2"><h1>ABOUT</h1></nav>
+    <form class="text-center border border-light bg-white p-5 my-2" action="#!">
+        <h2>The aim of this site is to provide you to beautiful watches.
+             This site is developed by AKASH AHMAD and his group.
+             With the help of this site we try  to provide you beautiful watcher in very less amount.
+             I hope this site is helpfull for you to find watches.
+             If you have any suggestion than you contact me without any hasitate</h2>
+             <a class="nav-link bg-warning" href="{% url 'contact' %}"><h2>CONTACT</h2></a>
+    </form>
+</div>
+</div>
+
+{% endblock more %}

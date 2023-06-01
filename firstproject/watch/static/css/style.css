@@ -7,8 +7,18 @@
 .sty{
             text-align: center;
             background-color: black;
-            color: whitesmoke;
+            color: rgb(250, 248, 248);
         }
 .font{
+    text-align: center;
+}
+body{
+    background-color: SlateBlue;
+}
+.json{
+    background-color: rgb(43, 226, 134);
+    color: black;
+}
+.desine{
     text-align: center;
 }
