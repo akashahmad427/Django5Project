@@ -6,7 +6,7 @@
     }
 .sty{
             text-align: center;
-            background-color: black;
+            background-color: darkslategray;
             color: rgb(250, 248, 248);
         }
 .font{
@@ -16,8 +16,8 @@ body{
     background-color: rgb(189, 183, 235);
 }
 .json{
-    background-color: rgb(43, 226, 134);
-    color: black;
+    background-color: rgb(30, 0, 85);
+    color: whitesmoke;
 }
 .desine{
     text-align: center;
@@ -44,3 +44,13 @@ body{
           opacity: 0;
         }
       }
+
+.comfort{
+    text-align: center;
+    color: whitesmoke;
+    background-color: blue;
+    
+    }
+.bg{
+    background-color: rgb(125, 163, 163);
+}

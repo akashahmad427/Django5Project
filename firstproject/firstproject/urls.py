@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
 from watch import views
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,6 +25,5 @@ urlpatterns = [
     path('form/',views.perchar,name='form'),
     path('contact/',views.contact,name='contact'),
     path('about/',views.about,name='about'),
-    path('selling/',views.selling,name='selling'),
-    path('test/',views.test,name='test'),
-]
+    path('selling/<int:msg>',views.selling,name='selling'),
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

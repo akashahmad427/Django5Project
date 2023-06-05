@@ -7,5 +7,9 @@ class Sellinfo(models.Model):
     father_name= models.CharField(max_length=90)
     cnic = models.IntegerField()
     address = models.CharField(max_length=300)
+    city = models.CharField(max_length=90,default='New York')
     email = models.EmailField(max_length=30)
     phone = models.IntegerField()
+
+class Photo(models.Model):
+    img = models.ImageField(upload_to='myimage')
